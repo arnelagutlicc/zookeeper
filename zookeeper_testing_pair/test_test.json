@@ -10,7 +10,7 @@
             {
                "name":"file_lines_of_code_for_alert",
                "value":5000
-            },
+            }, 
             {
                "name":"file_lines_of_code_for_critical_alert",
                "value":10000
