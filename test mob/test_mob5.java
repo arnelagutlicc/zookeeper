@@ -57,6 +57,206 @@ public class AuthenticationHelper {
             enforceAuthEnabled =
                 Boolean.parseBoolean(System.getProperty(ENFORCE_AUTH_ENABLED, "false"));
             String enforceAuthSchemesProp = System.getProperty(ENFORCE_AUTH_SCHEMES);
+             if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+             if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
             if (enforceAuthSchemesProp != null) {
                 Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
                     enforceAuthSchemes.add(s.trim());
