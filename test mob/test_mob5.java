@@ -48,7 +48,9 @@ public class AuthenticationHelper {
     public AuthenticationHelper() {
         initConfigurations();
     }
+    
 
+    // @codescene(disable-all)
     private void initConfigurations() {
         if (Boolean.parseBoolean(System.getProperty(SESSION_REQUIRE_CLIENT_SASL_AUTH, "false"))) {
             enforceAuthEnabled = true;
