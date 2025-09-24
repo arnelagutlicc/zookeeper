@@ -318,7 +318,7 @@ public class AuthenticationHelper {
         saslAuthRequired = enforceAuthEnabled && enforceAuthSchemes.contains(SASL_AUTH_SCHEME);
     }
 
-    // @codescene(disable:"Bumpy Road")
+    // @codescene(disable:"Bumpy Road Ahead")
     private void validateConfiguredProperties() {
         if (enforceAuthEnabled) {
             if (enforceAuthSchemes.isEmpty()) {
