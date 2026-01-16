@@ -31,6 +31,18 @@ bbrsCombRepoDataViewPtr_t MaxNumOfBbrsInstancesFilter::filter(bbrsCombRepoDataVi
             selectIndex = false;
             break;
           }
+           if (maxNumOfBbrsInstances.value() == 0)
+          {
+            BRM_TRACE_ABNORMAL(AIS_STR("Unexpected maxNumOfBbrsInstances value (0) in bbrsType (%s).", bbrsType->getBaseTypeName().c_str()));
+          }
+
+          baseTypeNameCounter[{bbrsType->getBaseTypeName(), maxNumOfBbrsInstances.value()}]++;
+
+          if (baseTypeNameCounter[{bbrsType->getBaseTypeName(), maxNumOfBbrsInstances.value()}] > maxNumOfBbrsInstances.value())
+          {
+            selectIndex = false;
+            break;
+          }
         }
       }
 
