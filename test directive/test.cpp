@@ -31,6 +31,12 @@ bbrsCombRepoDataViewPtr_t MaxNumOfBbrsInstancesFilter::filter(bbrsCombRepoDataVi
             selectIndex = false;
             break;
           }
+
+          if (baseTypeNameCounter[{bbrsType->getBaseTypeName(), maxNumOfBbrsInstances.value()}] > maxNumOfBbrsInstances.value())
+          {
+            selectIndex = false;
+            break;
+          }
         }
       }
 
