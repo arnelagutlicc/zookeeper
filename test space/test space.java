@@ -227,6 +227,51 @@ public class AuthenticationHelper {
             if (enforceAuthSchemes.contains(id.getScheme())) {
                 return true;
             }
+            if (enforceAuthSchemes.contains(id.getScheme())) {
+                return true;
+            }
+            if (enforceAuthSchemes.contains(id.getScheme())) {
+                return true;
+            }
+            if (enforceAuthSchemes.contains(id.getScheme())) {
+                return true;
+            }
+            if (enforceAuthSchemes.contains(id.getScheme())) {
+                return true;
+            }
+            if (enforceAuthSchemes.contains(id.getScheme())) {
+                return true;
+            }
+            if (enforceAuthSchemes.contains(id.getScheme())) {
+                return true;
+            }
+            if (enforceAuthSchemes.contains(id.getScheme())) {
+                return true;
+            }
+            if (enforceAuthSchemes.contains(id.getScheme())) {
+                return true;
+            }
+            if (enforceAuthSchemes.contains(id.getScheme())) {
+                return true;
+            }
+            if (enforceAuthSchemes.contains(id.getScheme())) {
+                return true;
+            }
+            if (enforceAuthSchemes.contains(id.getScheme())) {
+                return true;
+            }
+            if (enforceAuthSchemes.contains(id.getScheme())) {
+                return true;
+            }
+            if (enforceAuthSchemes.contains(id.getScheme())) {
+                return true;
+            }
+            if (enforceAuthSchemes.contains(id.getScheme())) {
+                return true;
+            }
+            if (enforceAuthSchemes.contains(id.getScheme())) {
+                return true;
+            }
         }
         return false;
     }
