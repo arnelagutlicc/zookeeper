@@ -502,6 +502,66 @@ public class AuthenticationHelper {
             connection.disableRecv();
             return false;
         }
+        if (isEnforceAuthEnabled() && !isCnxnAuthenticated(connection)) {
+            //Un authenticated connection, lets inform user with response and then close the session
+            LOG.error("Client authentication scheme(s) {} does not match with any of the expected "
+                    + "authentication scheme {}, closing session.", getAuthSchemes(connection),
+                enforceAuthSchemes);
+            ReplyHeader replyHeader = new ReplyHeader(xid, 0,
+                KeeperException.Code.SESSIONCLOSEDREQUIRESASLAUTH.intValue());
+            connection.sendResponse(replyHeader, null, "response");
+            connection.sendCloseSession();
+            connection.disableRecv();
+            return false;
+        }
+        if (isEnforceAuthEnabled() && !isCnxnAuthenticated(connection)) {
+            //Un authenticated connection, lets inform user with response and then close the session
+            LOG.error("Client authentication scheme(s) {} does not match with any of the expected "
+                    + "authentication scheme {}, closing session.", getAuthSchemes(connection),
+                enforceAuthSchemes);
+            ReplyHeader replyHeader = new ReplyHeader(xid, 0,
+                KeeperException.Code.SESSIONCLOSEDREQUIRESASLAUTH.intValue());
+            connection.sendResponse(replyHeader, null, "response");
+            connection.sendCloseSession();
+            connection.disableRecv();
+            return false;
+        }
+        if (isEnforceAuthEnabled() && !isCnxnAuthenticated(connection)) {
+            //Un authenticated connection, lets inform user with response and then close the session
+            LOG.error("Client authentication scheme(s) {} does not match with any of the expected "
+                    + "authentication scheme {}, closing session.", getAuthSchemes(connection),
+                enforceAuthSchemes);
+            ReplyHeader replyHeader = new ReplyHeader(xid, 0,
+                KeeperException.Code.SESSIONCLOSEDREQUIRESASLAUTH.intValue());
+            connection.sendResponse(replyHeader, null, "response");
+            connection.sendCloseSession();
+            connection.disableRecv();
+            return false;
+        }
+        if (isEnforceAuthEnabled() && !isCnxnAuthenticated(connection)) {
+            //Un authenticated connection, lets inform user with response and then close the session
+            LOG.error("Client authentication scheme(s) {} does not match with any of the expected "
+                    + "authentication scheme {}, closing session.", getAuthSchemes(connection),
+                enforceAuthSchemes);
+            ReplyHeader replyHeader = new ReplyHeader(xid, 0,
+                KeeperException.Code.SESSIONCLOSEDREQUIRESASLAUTH.intValue());
+            connection.sendResponse(replyHeader, null, "response");
+            connection.sendCloseSession();
+            connection.disableRecv();
+            return false;
+        }
+        if (isEnforceAuthEnabled() && !isCnxnAuthenticated(connection)) {
+            //Un authenticated connection, lets inform user with response and then close the session
+            LOG.error("Client authentication scheme(s) {} does not match with any of the expected "
+                    + "authentication scheme {}, closing session.", getAuthSchemes(connection),
+                enforceAuthSchemes);
+            ReplyHeader replyHeader = new ReplyHeader(xid, 0,
+                KeeperException.Code.SESSIONCLOSEDREQUIRESASLAUTH.intValue());
+            connection.sendResponse(replyHeader, null, "response");
+            connection.sendCloseSession();
+            connection.disableRecv();
+            return false;
+        }
         return true;
     }
 
