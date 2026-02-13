@@ -48,6 +48,7 @@ public class AuthenticationHelper {
     public AuthenticationHelper() {
         initConfigurations();
     }
+    
 
     // @codescene(disable-all)
     private void initConfigurations() {
