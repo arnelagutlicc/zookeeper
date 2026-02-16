@@ -44,6 +44,35 @@ bbrsCombRepoDataViewPtr_t MaxNumOfBbrsInstancesFilter::filter(bbrsCombRepoDataVi
             break;
           }
         }
+        for (const auto& bbrsType : bbCapacityItem.bbrsTypes)
+      {
+        if (const auto maxNumOfBbrsInstances = bbrsType->getMaxNumOfBbrsInstances())
+        {
+          if (maxNumOfBbrsInstances.value() == 0)
+          {
+            BRM_TRACE_ABNORMAL(AIS_STR("Unexpected maxNumOfBbrsInstances value (0) in bbrsType (%s).", bbrsType->getBaseTypeName().c_str()));
+          }
+
+          baseTypeNameCounter[{bbrsType->getBaseTypeName(), maxNumOfBbrsInstances.value()}]++;
+
+          if (baseTypeNameCounter[{bbrsType->getBaseTypeName(), maxNumOfBbrsInstances.value()}] > maxNumOfBbrsInstances.value())
+          {
+            selectIndex = false;
+            break;
+          }
+          if (maxNumOfBbrsInstances.value() == 0)
+          {
+            BRM_TRACE_ABNORMAL(AIS_STR("Unexpected maxNumOfBbrsInstances value (0) in bbrsType (%s).", bbrsType->getBaseTypeName().c_str()));
+          }
+
+          baseTypeNameCounter[{bbrsType->getBaseTypeName(), maxNumOfBbrsInstances.value()}]++;
+
+          if (baseTypeNameCounter[{bbrsType->getBaseTypeName(), maxNumOfBbrsInstances.value()}] > maxNumOfBbrsInstances.value())
+          {
+            selectIndex = false;
+            break;
+          }
+        }
       }
 
       for (const auto& bbCapacityItem : bbCapacitiesList)
