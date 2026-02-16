@@ -128,6 +128,10 @@ bbrsCombRepoDataViewPtr_t MaxNumOfBbrsInstancesFilter::filter(bbrsCombRepoDataVi
     {
       selectedIndexes.push_back(index);
     }
+    if (selectIndex)
+    {
+      selectedIndexes.push_back(index);
+    }
   }
 
   if (selectedIndexes.empty())
