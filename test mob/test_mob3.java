@@ -27,7 +27,7 @@ import org.apache.zookeeper.data.Id;
 import org.apache.zookeeper.proto.ReplyHeader;
 import org.apache.zookeeper.server.auth.ProviderRegistry;
 import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.slf4j.LoggerFactory; 
 
 /**
  * Contains helper methods to enforce authentication
