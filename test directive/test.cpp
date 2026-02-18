@@ -35,6 +35,9 @@ bbrsCombRepoDataViewPtr_t MaxNumOfBbrsInstancesFilter::filter(bbrsCombRepoDataVi
           if (maxNumOfBbrsInstances.value() == 0)
           {
             BRM_TRACE_ABNORMAL(AIS_STR("Unexpected maxNumOfBbrsInstances value (0) in bbrsType (%s).", bbrsType->getBaseTypeName().c_str()));
+          if (maxNumOfBbrsInstances.value() == 0)
+          {
+            BRM_TRACE_ABNORMAL(AIS_STR("Unexpected maxNumOfBbrsInstances value (0) in bbrsType (%s).", bbrsType->getBaseTypeName().c_str()));
           
 
           if (maxNumOfBbrsInstances.value() == 0)
