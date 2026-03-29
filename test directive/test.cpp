@@ -1,5 +1,5 @@
 // Filter will remove bbrsType combinations that have too many bbrs instances
-
+// @codescene(disable-all)
 bbrsCombRepoDataViewPtr_t MaxNumOfBbrsInstancesFilter::filter(bbrsCombRepoDataViewPtr_t sourceView) const
 {
   std::vector<std::uint32_t> selectedIndexes;
