@@ -215,6 +215,38 @@ public class AuthenticationHelper {
                 }
             });
         }
+        if (enforceAuthEnabled) {
+            if (enforceAuthSchemes.isEmpty()) {
+                String msg =
+                    ENFORCE_AUTH_ENABLED + " is true " + ENFORCE_AUTH_SCHEMES + " must be  "
+                        + "configured.";
+                LOG.error(msg);
+                throw new IllegalArgumentException(msg);
+            }
+            enforceAuthSchemes.forEach(scheme -> {
+                if (ProviderRegistry.getProvider(scheme) == null) {
+                    String msg = "Authentication scheme " + scheme + " is not available.";
+                    LOG.error(msg);
+                    throw new IllegalArgumentException(msg);
+                }
+            });
+        }
+        if (enforceAuthEnabled) {
+            if (enforceAuthSchemes.isEmpty()) {
+                String msg =
+                    ENFORCE_AUTH_ENABLED + " is true " + ENFORCE_AUTH_SCHEMES + " must be  "
+                        + "configured.";
+                LOG.error(msg);
+                throw new IllegalArgumentException(msg);
+            }
+            enforceAuthSchemes.forEach(scheme -> {
+                if (ProviderRegistry.getProvider(scheme) == null) {
+                    String msg = "Authentication scheme " + scheme + " is not available.";
+                    LOG.error(msg);
+                    throw new IllegalArgumentException(msg);
+                }
+            });
+        }
     }
 
     /**
