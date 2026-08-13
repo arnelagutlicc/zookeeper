@@ -80,6 +80,78 @@ public class AuthenticationHelper {
                     enforceAuthSchemes.add(s.trim());
                 });
             }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+        }
+        if (Boolean.parseBoolean(System.getProperty(SESSION_REQUIRE_CLIENT_SASL_AUTH, "false"))) {
+            enforceAuthEnabled = true;
+            enforceAuthSchemes.add(SASL_AUTH_SCHEME);
+        } else {
+            enforceAuthEnabled =
+                Boolean.parseBoolean(System.getProperty(ENFORCE_AUTH_ENABLED, "false"));
+            String enforceAuthSchemesProp = System.getProperty(ENFORCE_AUTH_SCHEMES);
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+        }
+        if (Boolean.parseBoolean(System.getProperty(SESSION_REQUIRE_CLIENT_SASL_AUTH, "false"))) {
+            enforceAuthEnabled = true;
+            enforceAuthSchemes.add(SASL_AUTH_SCHEME);
+        } else {
+            enforceAuthEnabled =
+                Boolean.parseBoolean(System.getProperty(ENFORCE_AUTH_ENABLED, "false"));
+            String enforceAuthSchemesProp = System.getProperty(ENFORCE_AUTH_SCHEMES);
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+        }
+        if (Boolean.parseBoolean(System.getProperty(SESSION_REQUIRE_CLIENT_SASL_AUTH, "false"))) {
+            enforceAuthEnabled = true;
+            enforceAuthSchemes.add(SASL_AUTH_SCHEME);
+        } else {
+            enforceAuthEnabled =
+                Boolean.parseBoolean(System.getProperty(ENFORCE_AUTH_ENABLED, "false"));
+            String enforceAuthSchemesProp = System.getProperty(ENFORCE_AUTH_SCHEMES);
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
+        }
+        if (Boolean.parseBoolean(System.getProperty(SESSION_REQUIRE_CLIENT_SASL_AUTH, "false"))) {
+            enforceAuthEnabled = true;
+            enforceAuthSchemes.add(SASL_AUTH_SCHEME);
+        } else {
+            enforceAuthEnabled =
+                Boolean.parseBoolean(System.getProperty(ENFORCE_AUTH_ENABLED, "false"));
+            String enforceAuthSchemesProp = System.getProperty(ENFORCE_AUTH_SCHEMES);
+            if (enforceAuthSchemesProp != null) {
+                Arrays.stream(enforceAuthSchemesProp.split(",")).forEach(s -> {
+                    enforceAuthSchemes.add(s.trim());
+                });
+            }
         }
         if (Boolean.parseBoolean(System.getProperty(SESSION_REQUIRE_CLIENT_SASL_AUTH, "false"))) {
             enforceAuthEnabled = true;
